@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+    <TextView android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/tv_info"
+              android:text="@string/text"
+              android:textSize="15sp"
+              android:gravity="center_vertical"
+    />
+    <Button android:layout_width="55dp"
+            android:id="@+id/btn_delete"
+            android:layout_height="match_parent"
+            android:drawableStart="@android:drawable/ic_delete"
+            android:drawableLeft="@android:drawable/ic_delete"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            tools:ignore="RelativeOverlap"
+            />
+</RelativeLayout>

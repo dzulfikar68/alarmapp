@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">AlarmApp</string>
+    <string name="app_name">Alarm App</string>
+    <string name="text">text</string>
+    <string name="delete">delete</string>
 </resources>
