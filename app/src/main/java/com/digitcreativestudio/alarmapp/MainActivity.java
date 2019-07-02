@@ -31,9 +31,9 @@ import java.util.*;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final static String URL = "http://dzulfikar68.pythonanywhere.com/alarmapp";
-    private final static String URL_ADD = "http://dzulfikar68.pythonanywhere.com/alarmapp_add";
-    private final static String URL_DELETE = "http://dzulfikar68.pythonanywhere.com/alarmapp_delete";
+    private final static String URL = "http://ashim.pythonanywhere.com/alarmapp";
+    private final static String URL_ADD = "http://ashim.pythonanywhere.com/alarmapp_add";
+    private final static String URL_DELETE = "http://ashim.pythonanywhere.com/alarmapp_delete";
 
     TimePicker myTimePicker;
     Button buttonstartSetDialog, btnSave, btnLoad;
